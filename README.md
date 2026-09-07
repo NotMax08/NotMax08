@@ -1,3 +1,4 @@
+
 Hi I'm Max :D
 
 I am currently a Mechatronics Engineering student at the University of Waterloo, focused on robotics, reinforcement learning, and simulation. 
@@ -12,9 +13,13 @@ I trained a Unitree Go2 quadruped with PPO using a custom ManagerBased RL enviro
 
 In the future, I plan on developing more advanced policies like getup policies, sim-to-real and physical intelligence 
 
+https://github.com/user-attachments/assets/ce5fb03b-266c-41d4-8809-2e8c5475f842
+
 2. Autonomous Maze Navigation — Nova Carter
 
 Built a full ROS2 Nav2 stack on a Nova Carter robot in Isaac Sim: SLAM mapping, AMCL localization, and Nav2 path planning. Constructed the entire TF tree from scratch and debugged a warped SLAM map down to a LiDAR/odometry publish-rate mismatch. ROS2, Nav2, SLAM, Isaac Sim
+
+https://github.com/user-attachments/assets/2b60f1ab-a6f5-4a7e-82c9-16c16b255645
 
 RICO — Voice-Controlled Robotic Arm (Eureka Hacks)
 
@@ -23,6 +28,8 @@ A 4-DOF arm that retrieves tools from natural-language voice commands, using a G
 FIRST Tech Challenge #18844 — Co-Captain & Lead Programmer
 
 2025 FIRST World Championships, 1st Connect Award (Ochoa Division). Built a Point-to-Point PID movement system, 2-wheel odometry with IMU localization, and an automated pickup system using a custom-trained CNN. PID control, Odometry, Computer Vision
+
+https://github.com/user-attachments/assets/af3205b9-133d-4f1a-839e-bc13e1aac065
 
 Tools & Technologies
 
