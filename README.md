@@ -1,36 +1,50 @@
-
 Hi I'm Max :D
 
-I am currently a Mechatronics Engineering student at the University of Waterloo, focused on robotics, reinforcement learning, and simulation. 
+I'm a Mechatronics Engineering student at the University of Waterloo, working on quadruped locomotion, ROS2 autonomy, and learned + vision-guided manipulation.
 
-Most of my recent work entails NVIDIA Isaac Sim / Isaac Lab, with ROS2 for communication and RL & PID for control.
+Portfolio: https://notmax08.github.io
 
-Featured Projects:
+## Projects
 
-1. Custom Quadruped Locomotion — Unitree Go2 PPO
+### The Brackey Way — Bracket Bot (1st place, Battle of the Schools, UMIST / WAT.AI)
 
-I trained a Unitree Go2 quadruped with PPO using a custom ManagerBased RL environment in Isaac Lab. To achieve stable locomotion, I focused heavily on tuning rewards, penalties and regularization terms. For example, I created a custom height reward function to eliminate crawling gaits, used curriculum learning to gate foot-lifting rewards after the robot learned to balance to aid training progress, and much more. I also focused on regularization terms, applying a squared penalty on penalties like action_rate to smooth joint movement while also preventing model overfitting. 
+A dual-arm Bracket Bot that takes toast out of a toaster, puts it on a plate, adds lettuce, and places the top slice. A fine-tuned π₀ VLA (trained on 100+ Meta Quest teleop episodes) handles the difficult grasps, OpenCV + inverse kinematics handles the simple ones, and a state machine switches between them.
 
-In the future, I plan on developing more advanced policies like getup policies, sim-to-real and physical intelligence 
+π₀ VLA, Imitation learning, OpenCV, State machine
+
+### Quadruped Locomotion with PPO — Unitree Go2 (in progress)
+
+A walking policy for a Unitree Go2 quadruped, trained with PPO in Isaac Lab.
+
+Isaac Lab, PPO, PyTorch
 
 https://github.com/user-attachments/assets/ce5fb03b-266c-41d4-8809-2e8c5475f842
 
-2. Autonomous Maze Navigation — Nova Carter
+### Autonomous Maze Navigator — Nova Carter
 
-Built a full ROS2 Nav2 stack on a Nova Carter robot in Isaac Sim: SLAM mapping, AMCL localization, and Nav2 path planning. Constructed the entire TF tree from scratch and debugged a warped SLAM map down to a LiDAR/odometry publish-rate mismatch. ROS2, Nav2, SLAM, Isaac Sim
+A ROS2 navigation stack in Isaac Sim: SLAM builds a map of the maze, AMCL localizes the robot on the map, and Nav2 plans a path and drives it.
+
+ROS2, Nav2, SLAM
 
 https://github.com/user-attachments/assets/2b60f1ab-a6f5-4a7e-82c9-16c16b255645
 
-RICO — Voice-Controlled Robotic Arm (Eureka Hacks)
+### RICO — Robotic Arm That Fetches Tools (Eureka Hacks)
 
-A 4-DOF arm that retrieves tools from natural-language voice commands, using a Groq LLM to parse speech into arm actions, inverse kinematics for motion, and a fine-tuned YOLOv8 model with a homography transform for tool localization. Inverse Kinematics, OpenCV, YOLOv8, LLM
+You ask for a tool, and the arm finds it on the bench and hands it to you. Uses a Groq LLM, homography, YOLOv8 object detection, and inverse kinematics.
 
-FIRST Tech Challenge #18844 — Co-Captain & Lead Programmer
+YOLOv8, OpenCV, Inverse kinematics
 
-2025 FIRST World Championships, 1st Connect Award (Ochoa Division). Built a Point-to-Point PID movement system, 2-wheel odometry with IMU localization, and an automated pickup system using a custom-trained CNN. PID control, Odometry, Computer Vision
+### FIRST Tech Challenge 18844 (1st Connect Award, Ochoa Division, 2025 FIRST World Championships)
+
+Co-captain and lead programmer. PID point-to-point movement, odometry with IMU heading, and CNN-driven automated pickup.
+
+PID control, Odometry, Java
 
 https://github.com/user-attachments/assets/af3205b9-133d-4f1a-839e-bc13e1aac065
 
-Tools & Technologies
+## Toolkit
 
-Languages: Python, Java Robotics & Sim: Isaac Sim, Isaac Lab, ROS2, Rviz, Onshape ML / CV: PyTorch, rsl_rl, OpenCV, YOLOv8 Focus areas: Reinforcement Learning, PID control, Inverse Kinematics, Odometry
+- **Languages:** Python, Java, C++
+- **Simulation and robotics:** Isaac Sim, Isaac Lab, ROS2, RViz, Onshape
+- **Learning and vision:** PyTorch, rsl_rl, OpenCV, YOLOv8, π₀ VLA
+- **Focus areas:** Reinforcement learning, Imitation learning, PID control, Inverse kinematics, Odometry and SLAM
