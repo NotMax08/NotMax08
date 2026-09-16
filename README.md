@@ -1,3 +1,4 @@
+
 Hi I'm Max :D
 
 I'm a Mechatronics Engineering student at the University of Waterloo, working on quadruped locomotion, ROS2 autonomy, and learned + vision-guided manipulation.
@@ -11,6 +12,12 @@ Portfolio: https://notmax08.github.io
 A dual-arm Bracket Bot that takes toast out of a toaster, puts it on a plate, adds lettuce, and places the top slice. A fine-tuned π₀ VLA (trained on 100+ Meta Quest teleop episodes) handles the difficult grasps, OpenCV + inverse kinematics handles the simple ones, and a state machine switches between them.
 
 π₀ VLA, Imitation learning, OpenCV, State machine
+
+<img width="1266" height="585" alt="demo1" src="https://github.com/user-attachments/assets/f1115e3c-d033-4261-a6b1-f598ae5807fd" />
+
+<img width="1266" height="585" alt="demo2" src="https://github.com/user-attachments/assets/ecacf68f-146b-4108-9fc9-bb97b4071a84" />
+<img width="949" height="502" alt="cv1" src="https://github.com/user-attachments/assets/4cf894ee-fac2-474b-9391-4d47cb379657" />
+
 
 ### Quadruped Locomotion with PPO — Unitree Go2 (in progress)
 
